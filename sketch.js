@@ -54,7 +54,7 @@ function draw() {
 
   // 控制1.png淡出
   if (millis() > img1FadeStart && img1Alpha > 0) {
-    img1Alpha = max(0, img1Alpha - 0.5); // 缓慢淡出
+    img1Alpha = max(0, img1Alpha - 5); // 缓慢淡出
   }
   // 判断1.png是否完全淡出
   if (img1Alpha === 0) {
