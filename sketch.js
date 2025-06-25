@@ -143,9 +143,9 @@ function keyReleased() {
 
 function updateCurrentImage(k) {
   switch (k.toLowerCase()) {
-    case 's': currentImg = wImg; break;
+    case 'w': currentImg = wImg; break;
     case 'a': currentImg = aImg; break;
-    case 'w': currentImg = sImg; break;
+    case 's': currentImg = sImg; break;
     case 'd': currentImg = dImg; break;
   }
 }
